@@ -44,5 +44,6 @@ $app->get('/groups', function (Request $request, Response $response) use ($datab
     }
 });
 
+
 // Run app
 $app->run();
